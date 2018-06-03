@@ -73,7 +73,7 @@ article {
     #leftsidebar {width: 200px; float: left;}
     #main {margin-left: 216px;}
 
-
+}
 footer {
     margin: 0px;
     padding: 60px 10px;
@@ -112,4 +112,9 @@ footer {
 }
 #contact {
     font-size: 20px;
+}
+@media screen and (min-width: 300px) {
+    #contact {
+        min-width: 400px;
+    }
 }
